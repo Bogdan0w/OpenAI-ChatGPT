@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "markdowntext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shaps80/MarkdownText.git",
+      "state" : {
+        "revision" : "0dbef003e450a59283cefaed433bd267fff87e7f",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "openai",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MacPaw/OpenAI.git",
+      "state" : {
+        "revision" : "c1ee239b20f97344bb50ffd24361740ce1963181",
+        "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "swift-cmark",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shaps80/swift-cmark.git",
+      "state" : {
+        "revision" : "476f7b4fcf12eba381b4aaed8987006fd8fcec9c",
+        "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "swift-markdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shaps80/swift-markdown",
+      "state" : {
+        "revision" : "83188dee2dbccfa70124c56055dd0b759d3e4ec3",
+        "version" : "0.3.0"
+      }
+    },
+    {
+      "identity" : "swiftuibackports",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shaps80/SwiftUIBackports",
+      "state" : {
+        "revision" : "d9842f24656ff7c6116dc207b60f0b6d302a5a9a",
+        "version" : "1.9.0"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "ec2c0719f048d7294749cb2e29df7560133ef09a"
+      }
+    }
+  ],
+  "version" : 2
+}

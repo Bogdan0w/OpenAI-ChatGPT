@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  iChatGPT
+
+  Created by HTC on 2023/3/19.
+  Copyright © 2023 37 Mobile Games. All rights reserved.
+*/
+
+"Loading.." = "Загрузка..";
+"Just ask.." = "Просто спросите..";
+"Re-question" = "Переформулировать вопрос";
+"Copy Question" = "Копировать вопрос";
+"Copy Answer" = "Копировать ответ";
+"Copy Question and Answer" = "Копировать вопрос и ответ";
+"Copy Question to Inputbox" = "Скопировать вопрос в поле ввода";
+"Delete Question" = "Удалить вопрос";
+"Delete All" = "Удалить все";
+"Settings" = "Настройки";
+"Please enter OpenAI Key" = "Пожалуйста, введите ключ API";
+"OpenAI Key cannot be empty" = "Ключ API не может быть пустым";
+"Save Key" = "Сохранить ключ";
+"Developer: 37 Mobile iOS Tech Team\nGitHub: https://github.com/37iOS/iChatGPT" = "Разработчик: 37 Mobile iOS Tech Team\nGitHub: https://github.com/37iOS/iChatGPT";
+"Open a new conversation" = "Открыть новый разговор";
+"The current chat log will be saved and closed, and a new chat session will be created." = "Текущий журнал чата будет сохранен и закрыт, и будет создана новая сессия чата.";
+"Create" = "Создать";
+"Re-ask" = "Переспросить";
+"Re-request the last question." = "Повторно запросить последний вопрос.";
+"OK" = "ОК";
+"Clear current conversation" = "Очистить текущий разговор";
+"Clears the current conversation and deletes the saved conversation history." = "Очищает текущий разговор и удаляет сохраненную историю разговоров.";
+"Clear" = "Очистить";
+"No conversations" = "Нет разговоров";
+"Delete Chat" = "Удалить чат";
+"Are you sure you want to delete this chat?" = "Вы уверены, что хотите удалить этот чат?";
+"Delete" = "Удалить";
+"Chat History" = "История чата";
+"Coming soon.." = "Скоро..";
+"Room Settings" = "Настройки комнаты";
+"Save" = "Сохранить";
+"Current Chat" = "Текущий чат";
+"Share" = "Поделиться";
+"Choose a sharing format" = "Выберите формат для обмена";
+"Image" = "Изображение";
+"PDF" = "PDF";
+"Room Name" = "Имя комнаты";
+"The name of the room" = "Название чат-комнаты";
+"Prompt" = "Prompt";
+"Prompt description." = "Попросите ChatGPT играть определенную роль, например, 'Я хочу, чтобы ты играл роль интервьюера xxx.'";
+"Prompt text to generate contextual information for the corresponding text." = "Текст Prompt для генерации контекстной информации для соответствующего текста.";
+"Temperature" = "Temperature";
+"What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic." = "Какую температуру выборки использовать между 0 и 2. Более высокие значения, такие как 0,8, сделают выходные данные более случайными, а более низкие значения, такие как 0,2, сделают их более сосредоточенными и детерминированными.";
+"The default temperature is 0.7" = "Стандартная Temperature составляет 0.7";
+"How much context information is carried when sending a dialog." = "Сколько контекстной информации передается при отправке диалога.";
+"Default is the last 3 conversations." = "По умолчанию это последние 3 разговора.";
+"Temperature is between 0 and 2." = "Temperature находится между 0 и 2.";
+"History message count must be an integer greater than or equal to 0." = "Количество исторических сообщений должно быть целым числом больше или равно 0.";
+"Settings have been updated~" = "Настройки были обновлены~";
+"Tips" = "Советы";
+"Select Room API Model" = "Выберите модель API чата";
+"Deafult API Model" = "Модель по умолчанию для новых чат-комнат";
+"For example: " = "Например:";
+"Use Default" = "Использовать значение по умолчанию";
+"Current use Key: " = "Текущее использование:";
+"API Request timeout (seconds)" = "Таймаут запроса API (секунды)";
+"API host format is incorrect!" = "Формат хоста API неверен!";
+"API timeout must be a number" = "Тайм-аут должен быть числом";

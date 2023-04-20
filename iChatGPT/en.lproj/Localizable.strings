@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  iChatGPT
+
+  Created by HTC on 2023/3/19.
+  Copyright © 2023 37 Mobile Games. All rights reserved.
+*/
+
+"Loading.." = "Loading..";
+"Just ask.." = "Just ask..";
+"Re-question" = "Re-question";
+"Copy Question" = "Copy Question";
+"Copy Answer" = "Copy Answer";
+"Copy Question and Answer" = "Copy Question and Answer";
+"Copy Question to Inputbox" = "Copy Question to Inputbox";
+"Delete Question" = "Delete Question";
+"Delete All" = "Delete All";
+"Settings" = "Settings";
+"Please enter OpenAI Key" = "Enter API Key";
+"OpenAI Key cannot be empty" = "API Key cannot be empty";
+"Save Key" = "Save Key";
+"Developer: 37 Mobile iOS Tech Team\nGitHub: https://github.com/37iOS/iChatGPT" = "Developer: 37 Mobile iOS Tech Team\nGitHub: https://github.com/37iOS/iChatGPT";
+"Open a new conversation" = "Open a new conversation";
+"The current chat log will be saved and closed, and a new chat session will be created." = "The current chat log will be saved and closed, and a new chat session will be created.";
+"Create" = "Create";
+"Re-ask" = "Re-ask";
+"Re-request the last question." = "Re-request the last question.";
+"OK" = "OK";
+"Clear current conversation" = "Clear current conversation";
+"Clears the current conversation and deletes the saved conversation history." = "Clears the current conversation and deletes the saved conversation history.";
+"Clear" = "Clear";
+"No conversations" = "No conversations";
+"Delete Chat" = "Delete Chat";
+"Are you sure you want to delete this chat?" = "Are you sure you want to delete this chat?";
+"Delete" = "Delete";
+"Chat History" = "Chat History";
+"Coming soon.." = "Coming soon..";
+"Room Settings" = "Room Settings";
+"Save" = "Save";
+"Current Chat" = "Current Chat";
+"Share" = "Share";
+"Choose a sharing format" = "Choose a sharing format";
+"Image" = "Image";
+"PDF" = "PDF";
+"Room Name" = "Room Name";
+"The name of the room" = "The name of the chat room";
+"Prompt" = "Prompt";
+"Prompt description." = "Have ChatGPT play a specific role, such as 'I want you to act as an xxx interviewer.'";
+"Prompt text to generate contextual information for the corresponding text." = "Prompt text to generate contextual information for the corresponding text.";
+"Temperature" = "Temperature";
+"What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic." = "The default value is 0.7, ranging from 0-2. The larger the value, the more random the results returned each time, meaning lower similarity. The smaller the value, the more similar the generated text.";
+"The default temperature is 0.7" = "The default temperature is 0.7";
+"How much context information is carried when sending a dialog." = "How much context information is carried when sending a dialog.";
+"Default is the last 3 conversations." = "The default is the last 3 conversations";
+"Temperature is between 0 and 2." = "Temperature is a Double value between 0 and 2.";
+"History message count must be an integer greater than or equal to 0." = "History message count must be an integer greater than or equal to 0.";
+"Settings have been updated~" = "Settings have been updated~";
+"Tips" = "Tips";
+"Select Room API Model" = "Current Chat Room Model";
+"Deafult API Model" = "Default Model for New Chat Rooms";
+"For example: " = "For example: ";
+"Use Default" = "Use Default";
+"Current use Key: " = "Currently using: ";
+"API Request timeout (seconds)" = "API Request Timeout (seconds)";
+"API host format is incorrect!" = "API Host Format is Incorrect!";
+"API timeout must be a number" = "Timeout Must Be a Number";
