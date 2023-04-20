@@ -44,10 +44,10 @@
 "PDF" = "PDF";
 "Room Name" = "Имя комнаты";
 "The name of the room" = "Название чат-комнаты";
-"Prompt" = "Prompt";
+"Prompt" = "Роль ChatGPT";
 "Prompt description." = "Попросите ChatGPT играть определенную роль, например, 'Я хочу, чтобы ты играл роль интервьюера xxx.'";
 "Prompt text to generate contextual information for the corresponding text." = "Текст Prompt для генерации контекстной информации для соответствующего текста.";
-"Temperature" = "Temperature";
+"Temperature" = "Температура генирации";
 "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic." = "Какую температуру выборки использовать между 0 и 2. Более высокие значения, такие как 0,8, сделают выходные данные более случайными, а более низкие значения, такие как 0,2, сделают их более сосредоточенными и детерминированными.";
 "The default temperature is 0.7" = "Стандартная Temperature составляет 0.7";
 "How much context information is carried when sending a dialog." = "Сколько контекстной информации передается при отправке диалога.";
@@ -64,3 +64,8 @@
 "API Request timeout (seconds)" = "Таймаут запроса API (секунды)";
 "API host format is incorrect!" = "Формат хоста API неверен!";
 "API timeout must be a number" = "Тайм-аут должен быть числом";
+"New chat" = "Создать новый чат";
+"Share data" = "Поделиться/экспортировать данный чат";
+"Regenerate" = "Регенерировать ответ";
+"Clear chat" = "Очистить чат";
+"API Model" = "API модель";

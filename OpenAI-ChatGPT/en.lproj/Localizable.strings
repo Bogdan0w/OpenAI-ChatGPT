@@ -7,13 +7,11 @@
 */
 
 "Loading.." = "Loading..";
-"Just ask.." = "Just ask..";
-"Re-question" = "Re-question";
+"Just ask.." = "Ask question";
 "Copy Question" = "Copy Question";
 "Copy Answer" = "Copy Answer";
 "Copy Question and Answer" = "Copy Question and Answer";
-"Copy Question to Inputbox" = "Copy Question to Inputbox";
-"Delete Question" = "Delete Question";
+"Delete Question" = "Delete current request";
 "Delete All" = "Delete All";
 "Settings" = "Settings";
 "Please enter OpenAI Key" = "Enter API Key";
@@ -64,3 +62,7 @@
 "API Request timeout (seconds)" = "API Request Timeout (seconds)";
 "API host format is incorrect!" = "API Host Format is Incorrect!";
 "API timeout must be a number" = "Timeout Must Be a Number";
+"New chat" = "Create new chat";
+"Share data" = "Share/export current chat";
+"Regenerate" = "Re-generate answer";
+"Clear chat" = "Clear chat";

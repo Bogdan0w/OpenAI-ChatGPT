@@ -12,13 +12,11 @@ struct ChatContextMenu: View {
     
     @Binding var searchText: String
     @StateObject var chatModel: AIChatModel
+    @EnvironmentObject var model: AIChatInputModel
     let item: AIChat
     
     var body: some View {
         VStack {
-            CreateMenuItem(text: "Re-question".localized(), imgName: "arrow.up.message") {
-                chatModel.getChatResponse(prompt: item.issue)
-            }
             CreateMenuItem(text: "Copy Question".localized(), imgName: "doc.on.doc") {
                 item.issue.copyToClipboard()
             }
@@ -33,10 +31,23 @@ struct ChatContextMenu: View {
             }
             .disabled(item.answer == nil)
 
-            CreateMenuItem(text: "Copy Question to Inputbox".localized(), imgName: "keyboard.badge.ellipsis") {
-                searchText = searchText + item.issue
+            CreateMenuItem(text: "New chat".localized(), imgName: "ellipsis.bubble") {
+                model.activeAlert = .createNewChatRoom
+                model.showingAlert.toggle()
             }
 
+            CreateMenuItem(text: "Share data".localized(), imgName: "square.and.arrow.up.on.square") {
+                model.activeAlert = .shareContents
+                model.showingAlert.toggle()
+            }
+            CreateMenuItem(text: "Regenerate".localized(), imgName: "arrow.clockwise.circle") {
+                model.activeAlert = .reloadLastQuestion
+                model.showingAlert.toggle()
+            }
+            CreateMenuItem(text: "Clear chat".localized(), imgName: "trash") {
+                model.activeAlert = .reloadLastQuestion
+                model.showingAlert.toggle()
+            }
             // remove item
             let isWait = chatModel.contents.filter({ $0.isResponse == false })
             
@@ -46,10 +57,6 @@ struct ChatContextMenu: View {
                     chatModel.contents.remove(at: index)
                 }
             }
-
-            CreateMenuItem(text: "Delete All".localized(), imgName: "trash", isDestructive: true) {
-                chatModel.contents.removeAll()
-            }.disabled(isWait.count > 0)
         }
     }
 

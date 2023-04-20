@@ -20,7 +20,6 @@ extension View {
         }
     }
 }
-
 struct AIChatView: View {
     @State private var animateGradient = true
     @State private var messageAnimate = false
@@ -48,7 +47,6 @@ struct AIChatView: View {
             .markdownUnorderedListBulletStyle(.custom)
             .markdownImageStyle(.custom)
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarItems(trailing: addButton)
             .sheet(isPresented: $isSettingsPresented) {
                 ChatAPISettingView(isKeyPresented: $isSettingsPresented, chatModel: chatModel)
             }
@@ -86,6 +84,9 @@ struct AIChatView: View {
                     HStack {
                         Image("chatgpt").resizable()
                             .frame(width: 25, height: 25)
+                            .onTapGesture {
+                                inputModel.isConfigChatRoom.toggle()
+                            }
                         Text("Bogdanov ChatGPT Client").font(Font.custom("Pacifico", size: 18))
                     }
                 }
@@ -171,19 +172,6 @@ struct AIChatView: View {
             }
         }
     }
-    
-    private var addButton: some View {
-        Button(action: {
-            inputModel.isConfigChatRoom.toggle()
-        }) {
-            HStack {
-                    Image(systemName: "gearshape").imageScale(.large)
-                    .foregroundColor(.black)
-                }
-            }
-            .frame(height: 40)
-            .padding(.trailing, 5)
-        }
     }
 
 // MARK: - Handle Input Toolbar Event

@@ -13,6 +13,7 @@ struct ChatHistoryListView: View {
     
     @Binding var isKeyPresented: Bool
     @StateObject var chatModel: AIChatModel
+    @EnvironmentObject var model: AIChatInputModel
     var onComplete: (String) -> Void
     
     @State private var chatItems: [ChatRoom] = ChatRoomStore.shared.chatRooms().reversed()
@@ -40,8 +41,10 @@ struct ChatHistoryListView: View {
             .listStyle(PlainListStyle())
             .navigationTitle("Chat History".localized())
             .toolbar {
-                Button(action: onCloseButtonTapped) {
-                    Image(systemName: "xmark.circle").imageScale(.large)
+                Button(action:{
+                    model.activeAlert = .createNewChatRoom
+                    model.showingAlert.toggle()}) {
+                    Image(systemName: "trash").imageScale(.large)
                 }
             }
         }

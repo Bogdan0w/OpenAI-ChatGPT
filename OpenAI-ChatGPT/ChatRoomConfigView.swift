@@ -23,6 +23,7 @@ struct ChatRoomConfigView: View {
     @State var isDirty: Bool = false
     @State var showingAlert: Bool = false
     @State var alertMessage: String = ""
+    @EnvironmentObject var model: AIChatInputModel
     
     init(isKeyPresented: Binding<Bool>, chatModel: AIChatModel) {
         _isKeyPresented = isKeyPresented
@@ -70,7 +71,9 @@ struct ChatRoomConfigView: View {
                             Text("Save".localized()).bold()
                         }).disabled(!isDirty)
 
-                        Button(action: onCloseButtonTapped) {
+                        Button(action:{
+                            model.activeAlert = .createNewChatRoom
+                            model.showingAlert.toggle()}) {
                             Image(systemName: "xmark.circle").imageScale(.large)
                         }
                     }
