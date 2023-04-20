@@ -57,9 +57,6 @@
 		6DC88ADF2942C8AD00DA6C55 /* AIChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChatView.swift; sourceTree = "<group>"; };
 		6DC88AE12942C8AE00DA6C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC88AE42942C8AE00DA6C55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6DC88AEE2942C8AE00DA6C55 /* iChatGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatGPTTests.swift; sourceTree = "<group>"; };
-		6DC88AF82942C8AE00DA6C55 /* iChatGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatGPTUITests.swift; sourceTree = "<group>"; };
-		6DC88AFA2942C8AE00DA6C55 /* iChatGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DC88B072942C8D200DA6C55 /* ChatInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputView.swift; sourceTree = "<group>"; };
 		6DC88B082942C8D200DA6C55 /* ChatAPISettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatAPISettingView.swift; sourceTree = "<group>"; };
 		6DC88B092942C8D200DA6C55 /* ChatContextMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatContextMenu.swift; sourceTree = "<group>"; };
@@ -99,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				6DC88ADC2942C8AD00DA6C55 /* OpenAI-ChatGPT */,
-				6DC88AED2942C8AE00DA6C55 /* iChatGPTTests */,
-				6DC88AF72942C8AE00DA6C55 /* iChatGPTUITests */,
 				6DC88ADB2942C8AD00DA6C55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,23 +137,6 @@
 				6DC88AE42942C8AE00DA6C55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6DC88AED2942C8AE00DA6C55 /* iChatGPTTests */ = {
-			isa = PBXGroup;
-			children = (
-				6DC88AEE2942C8AE00DA6C55 /* iChatGPTTests.swift */,
-			);
-			path = iChatGPTTests;
-			sourceTree = "<group>";
-		};
-		6DC88AF72942C8AE00DA6C55 /* iChatGPTUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6DC88AF82942C8AE00DA6C55 /* iChatGPTUITests.swift */,
-				6DC88AFA2942C8AE00DA6C55 /* iChatGPTUITestsLaunchTests.swift */,
-			);
-			path = iChatGPTUITests;
 			sourceTree = "<group>";
 		};
 		6DC88B0D2942C8DB00DA6C55 /* Models */ = {

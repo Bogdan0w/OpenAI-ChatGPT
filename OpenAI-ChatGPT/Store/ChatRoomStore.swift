@@ -1,9 +1,9 @@
 //
 //  ChatRoomStore.swift
-//  iChatGPT
+//  OpenAI ChatGPT
 //
-//  Created by HTC on 2023/4/1.
-//  Copyright © 2023 37 Mobile Games. All rights reserved.
+//  Created by Nikita Bogdanov on 2023/4/12.
+//  Copyright © 2023 Bogdanov Solutions ENK. All rights reserved.
 //
 
 import Foundation
